@@ -1,0 +1,67 @@
+button {
+    height: 22px;
+    width: 100px;
+}
+
+.calc {
+    min-width: 0;
+    display: inline-block;
+    float: left;
+    margin-right: 32px;
+    padding-top: 12px;
+}
+
+.calc label {
+    width: 100px;
+    margin-right: 16px;
+    height: auto;
+    display: inline-block;
+}
+
+.calc > button {
+    margin-left: 116px;
+}
+
+.cart {
+    padding-right: 16px;
+}
+
+.cart > div {
+    margin: 8px 0;
+}
+
+.cart > div > input {
+    margin-right: 8px;
+    height: 1.2em;
+    width: 150px;
+}
+
+hr {
+    margin: 8px 0;
+}
+
+.selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.selector > select {
+    flex-grow: 1;
+    width: 258px;
+}
+
+.result > label:first-child {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.result > label:last-child {
+    font-size: 24px;
+    color: darkblue;
+}
